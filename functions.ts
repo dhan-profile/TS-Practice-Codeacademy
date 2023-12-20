@@ -93,6 +93,3 @@ function makeFruitSalad(fruit1:string, fruit2:string):void{
 }
 makeFruitSalad('banana','pineapple');
 
-
-// **************** Documenting Functions ******************* //
-
