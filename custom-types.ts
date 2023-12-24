@@ -50,7 +50,13 @@ let birthdayBabies = [
   {name: 'Olivia', age: 0, giftWish: 'a bright future', success:true}, 
   {name: 'Ava', age: 0, giftWish: '$0.25', success:true}
 ]; 
-
 birthdayBabies.forEach(sayHappyBirthdayWithObject);
 
+
+// ************** Defining UNIONS *********** //
+function printNumsAndStrings(statement: string|number) {
+  console.log(`ℹ️ LOG:: ${statement}`);
+}
+printNumsAndStrings('hello!');
+printNumsAndStrings(5);
 
